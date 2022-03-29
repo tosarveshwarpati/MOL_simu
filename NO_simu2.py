@@ -81,7 +81,7 @@ plt.xlabel(r'$\lambda \longrightarrow$')
 plt.plot(lam, I, color = 'k', label = "no $N_2$ flow")
 plt.plot(lam, data[:, 5], color = 'y', label = "low $N_2$ flow")
 plt.plot(lam, data[:, 4], color = 'c', label = "moderate $N_2$ flow")
-plt.plot(lam, data[:, 3], color = 'm', label = "xxxxxxxxxxxx")
+plt.plot(lam, data[:, 3], color = 'm', label = "Ut 2022 03 15")
 plt.legend()
 
 with open('position.txt', 'w') as f1:
